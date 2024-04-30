@@ -1,0 +1,136 @@
+body{
+    background-image: url("resimlerr/arkaplan1.webp") ;
+    background-attachment: fixed;
+    opacity: 0.8;
+   
+}
+.kayitFormu{
+                
+    border-radius:10px;
+    background:#ffffff;
+    width:360px;
+    margin-left: 5%;
+    padding-top:20px;
+    padding:15px;
+    text-align:center;
+    float: left;
+}
+input, button
+{
+    border-radius:5px;
+    border:none;
+    width:300px;
+    height:50px;
+    margin:20px 0px 20px 0px;
+    background:rgba(240,240,240,.5);
+    padding-left:15px;
+    font-style:italic;
+    
+}
+
+.btn{
+    background:rgb(7, 6, 79);
+    color:white;
+}
+h3{
+    color:#0d0d0d;
+    text-transform:uppercase;
+    font-size:20px;
+}
+.kayitFormu1{
+    border-radius:10px;
+    background:#ffffff;
+    width:360px;
+    margin-left: 27%;
+    padding-top:20px;
+    padding:15px;
+    text-align:center;
+    float: left;
+    
+}
+.randevuFormu{
+    border-radius:10px;
+    background:#ffffff;
+    width:360px;
+    margin-left: 27%;
+    padding-top:20px;
+    padding:15px;
+    text-align:center;
+    float: right;
+}
+.buyutec
+{
+    position: relative;
+    transform: scale(1.2);
+    transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+    -ms-transition: all .2s ease-in;
+  width:100px;
+  height:100px;
+  float:left;
+  padding:5px;
+}
+
+.buyutec:hover
+{
+    z-index:4;
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);  
+    -moz-transform: scale(1.5);
+    transform: scale(1.5);
+}
+::placeholder{
+    color: rgb(243, 237, 237);
+}
+
+@media only screen and (max-width: 768px) {
+    /* Ekran genişliği 768px'e kadar olan cihazlara özgü stil kuralları */
+    .header {
+        font-size: 20px;
+    }
+    .content {
+        padding: 10px;
+    }
+  }
+  @media only screen and (max-width: 200px) {
+    /* Ekran genişliği 768px'e kadar olan cihazlara özgü stil kuralları */
+    .header {
+        font-size: 20px;
+    }
+    .content {
+        padding: 10px;
+    }
+  }
+  @media only screen and (max-width: 7684px) {
+    
+    .header {
+        font-size: 50px;
+    }
+    .content {
+        padding: 30px;
+    }
+  }
+  @media only screen and (max-width: 100px) {
+    
+    .header {
+        font-size: 20px;
+    }
+    .content {
+        padding: 10px;
+    }
+  }
+  @media only screen and (max-width: 50px) {
+    
+    .header {
+        font-size: 20px;
+    }
+    .content {
+        padding: 10px;
+    }
+  }
+   ::placeholder{
+    color: black;
+  }
+ 
+
